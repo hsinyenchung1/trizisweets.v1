@@ -1,0 +1,42 @@
+*.csv
+*.dat
+*.iml
+*.log
+*.out
+*.pid
+*.seed
+*.sublime-*
+*.swo
+*.swp
+*.tgz
+*.xml
+.DS_Store
+.idea
+.project
+.strong-pm
+coverage
+node_modules
+npm-debug.log
+
+#client_src
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+client_src/node_modules
+
+# testing
+client_src/coverage
+
+# production
+client_src/build
+
+# misc
+client_src/.DS_Store
+client_src/.env.local
+client_src/.env.development.local
+client_src/.env.test.local
+client_src/.env.production.local
+
+client_src/npm-debug.log*
+client_src/yarn-debug.log*
+client_src/yarn-error.log*

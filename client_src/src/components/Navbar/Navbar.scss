@@ -1,0 +1,44 @@
+.nav-height{
+  height: 154px;
+}
+
+.nav-content-height{
+  height: 64px;
+  margin-top: calc(77px - 32px);
+}
+
+nav ul a {
+  color: rgba(82,82,82,.7);
+  padding: 0 10px;
+}
+
+nav ul a.nav-link {
+  font-size: 9px;
+  font-weight: 530;
+  letter-spacing: 1px;
+}
+
+nav ul {
+  margin-right: 20px;
+}
+
+nav ul:hover li a:hover{
+  color: rgba(82,82,82,.27999999999999997);
+}
+
+nav ul li a:hover {
+  background-color: transparent;
+  color: rgba(82,82,82,.7);
+}
+
+nav .brand-logo {
+  position: absolute;
+  color: black;
+  display: inline-block;
+  font-size: 2.1rem;
+  padding: 0;
+}
+
+.nav-color-black{
+  color:  rgba(82,82,82,.7);;
+}

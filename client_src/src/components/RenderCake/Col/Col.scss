@@ -1,0 +1,30 @@
+.title-price-font-style{
+  font-family: 'Roboto';
+  font-weight: 520;
+  letter-spacing: 1px;
+}
+
+.col-hover:hover{
+  content: "Helloooooo";
+  cursor: pointer;
+}
+
+.col-display-none{
+  display: none;
+}
+
+.col-hover:hover .col-display-none {
+  display: inline-block;
+  position: absolute;
+  font-size: 12px;
+  z-index: 100;
+  top: 50%;
+  left: 50%;
+  margin-left: -56px;
+  margin-top: -19px;
+  background-color: #fff;
+  color: black;
+  padding: 10px;
+  letter-spacing: 2px;
+  opacity: .9;
+}
