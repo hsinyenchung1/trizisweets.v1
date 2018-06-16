@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import RenderCake from "../RenderCake/RenderCake";
 import './SignatureCake.css';
 import imgPath from './sample-screen-pic.png';
+import QuickView from "../QuickView/QuickView";
 
 class SignatureCake extends Component {
 
@@ -27,7 +28,8 @@ class SignatureCake extends Component {
         }
       ],
       colCount: 4,
-      rowCount: 3
+      rowCount: 3,
+      modalId: "signatureCakeId"
     };
   }
 
@@ -35,6 +37,7 @@ class SignatureCake extends Component {
 
     return (
       <div>
+        <QuickView modalId={this.state.modalId}/>
         <RenderCake {...this.state}/>
       </div>
     )

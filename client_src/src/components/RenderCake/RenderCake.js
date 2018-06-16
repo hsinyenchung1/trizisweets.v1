@@ -14,7 +14,7 @@ class RenderCake extends Component {
   render() {
     // get render col html
     const col = this.props.imageObj.map((image, key) => {
-      return <Col imgPath={image.path} title={image.title} price={image.price} key={key} count={this.props.colCount}/>
+      return <Col imgPath={image.path} title={image.title} price={image.price} modalId={this.props.modalId} key={key} count={this.props.colCount}/>
     });
 
     // get render row html by 3 col only
